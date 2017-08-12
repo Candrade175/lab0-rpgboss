@@ -1,0 +1,333 @@
+[
+  {
+    "name":"# Goblin",
+    "units":[
+      {
+        "enemyIdx":13,
+        "x":255,
+        "y":210
+      }
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"# Dragon9",
+    "units":[
+      {
+        "enemyIdx":70,
+        "x":255,
+        "y":210
+      }
+    ],
+    "canEscape":true,
+    "escapeChance":1.0,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"# 2 x Goblin, Goblincmdr",
+    "units":[
+      {
+        "enemyIdx":13,
+        "x":167,
+        "y":155
+      },
+      {
+        "enemyIdx":13,
+        "x":152,
+        "y":265
+      },
+      {
+        "enemyIdx":15,
+        "x":342,
+        "y":210
+      }
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"# Goblin, Goblinwiz",
+    "units":[
+      {
+        "enemyIdx":13,
+        "x":255,
+        "y":155
+      },
+      {
+        "enemyIdx":21,
+        "x":240,
+        "y":265
+      }
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"# 2 x Goblinninja, Goblinrider",
+    "units":[
+      {
+        "enemyIdx":16,
+        "x":167,
+        "y":155
+      },
+      {
+        "enemyIdx":16,
+        "x":152,
+        "y":265
+      },
+      {
+        "enemyIdx":17,
+        "x":342,
+        "y":210
+      }
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"# 2 x Goblinshaman, 2 x Goblinwat",
+    "units":[
+      {
+        "enemyIdx":18,
+        "x":167,
+        "y":155
+      },
+      {
+        "enemyIdx":18,
+        "x":152,
+        "y":265
+      },
+      {
+        "enemyIdx":20,
+        "x":342,
+        "y":155
+      },
+      {
+        "enemyIdx":20,
+        "x":327,
+        "y":265
+      }
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"# Dragon7, Dragon9",
+    "units":[
+      {
+        "enemyIdx":68,
+        "x":255,
+        "y":155
+      },
+      {
+        "enemyIdx":70,
+        "x":240,
+        "y":265
+      }
+    ],
+    "canEscape":true,
+    "escapeChance":0.6,
+    "events":[
+      {
+        "conditions":[
+          {
+            "conditionTypeId":2,
+            "intValue1":{
+              "jsonClass":"IntParameter",
+              "constant":9,
+              "valueTypeId":0,
+              "localVariable":"",
+              "globalVariable":""
+            },
+            "intValue2":{
+              "jsonClass":"IntParameter",
+              "constant":1,
+              "valueTypeId":0,
+              "localVariable":"",
+              "globalVariable":""
+            },
+            "operatorId":0,
+            "negate":false
+          }
+        ],
+        "cmds":[
+          
+        ],
+        "maxFrequency":0
+      }
+    ]
+  },
+  {
+    "name":"# Templar",
+    "units":[
+      {
+        "enemyIdx":152,
+        "x":255,
+        "y":210
+      }
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"# Dragon2",
+    "units":[
+      {
+        "enemyIdx":63,
+        "x":255,
+        "y":210
+      }
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"# Khaleesi",
+    "units":[
+      {
+        "enemyIdx":0,
+        "x":255,
+        "y":210
+      }
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"#<None>",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  }
+]
